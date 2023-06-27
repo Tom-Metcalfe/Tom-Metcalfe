@@ -1,0 +1,27 @@
+# Incredibly long-winded and in need of cleaning up, but my very first attempt at a coding project. Random number generator for different roleplaying dice
+
+import random
+
+while 1 !=2:
+ die_choice = input('Which die do you wish to role?')
+ if die_choice == 'd20':
+  result = random.randint(1,20)
+  print(result)
+ elif die_choice == 'd12':
+  result = random.randint(1,12)
+  print(result)
+ elif die_choice =='d10':
+  result = random.randint(1,10)
+  print(result)
+ elif die_choice == 'd6':
+  result = random.randint(1,6)
+  print(result)
+ elif die_choice == 'd4':
+  result = random.randint(1,4)
+  print(result)
+ elif die_choice == 'd100':
+  result = random.randint(1,100)
+  print(result)
+ else:
+  print('That is not a die I recognise.')
+
