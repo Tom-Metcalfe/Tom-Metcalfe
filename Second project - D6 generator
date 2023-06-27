@@ -1,0 +1,12 @@
+import random
+while 1 !=2:
+  num_d6 =  int(input('How many d6 are you rolling?'))
+  type = input('Do you want the total (t) or individual (i) results?')
+  o = []
+  for x in range(num_d6):
+   d6 = random.randint(1,6)
+   o.append(d6)
+  if type == 'i':
+   print(o)
+  elif type == 't':
+     print(sum(o))
