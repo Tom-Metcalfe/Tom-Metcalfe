@@ -33,9 +33,8 @@ public class Main {
 
             }
         }
-        System.out.println("I'm sorry, the answer was:" + random_int);
-
-
-
+        if (wins >=5) {
+            System.out.println("I'm sorry, the answer was:" + random_int);
+        }
     }
 }
